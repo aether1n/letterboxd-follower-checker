@@ -1,0 +1,35 @@
+{
+    "manifest_version": 3,
+    "name": "Letterboxd Follower Checker",
+    "version": "1.0",
+    "description": "Shows which followers follow you back on Letterboxd.",
+    "permissions": [
+        "scripting",
+        "activeTab",
+        "storage",
+        "tabs"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://letterboxd.com/*/followers/",
+                "https://letterboxd.com/*/following/",
+                "https://letterboxd.com/*/followers/page/*/",
+                "https://letterboxd.com/*/following/page/*/"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ],
+    "icons": {
+        "128": "icons/icon.png"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "128": "icons/icon.png"
+        }
+    }
+}
