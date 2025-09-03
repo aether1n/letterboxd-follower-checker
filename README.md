@@ -16,7 +16,7 @@ No more guessing! Just install, fetch your followers, and browse with helpful ch
 ## Installation
 
 ### From Chrome Web Store  
-👉 [Install from the Chrome Web Store](https://chrome.google.com/webstore/detail/your-extension-id)  
+👉 [Install from the Chrome Web Store]([https://chrome.google.com/webstore/detail/your-extension-id](https://chromewebstore.google.com/detail/letterboxd-follower-check/mgjfheebhkfijlgoeofalcbmhcehkhbj))  
 
 ### From Source (Developer Mode)  
 1. Clone this repository:  
